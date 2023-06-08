@@ -14,10 +14,12 @@ body {
     color: white;
     border-radius: 0.8em;
     overflow: hidden;
+    margin-top: 30px;
 }
 
 .resident_header {
     position: relative;
+    
 }
 
 .resident-container {
@@ -81,6 +83,8 @@ body {
 .resident_value {
     font-weight: normal;
 }
+
+
 
 .Alive {
     background-color: green;
