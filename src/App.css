@@ -1,0 +1,51 @@
+input,button {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.img_header {
+    width: 100%;
+    max-height: 240px;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    background-color: #062226;
+    padding: 20px;
+}
+

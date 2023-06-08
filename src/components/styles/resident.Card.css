@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #062226;
+}
+
+
+
+.resident {
+    font-size: 1rem;
+    width: 100%;
+    max-width: 350px;
+    background-color: #062226;
+    color: white;
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+
+.resident_header {
+    position: relative;
+}
+
+.resident-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.resident_status {
+    position: absolute;
+    top: 15%;
+    width: 50%;
+    min-width: 100px;
+    background-color: #062226;
+    padding: 0.3em 0.8em;
+    border-radius: 0 0.6em 0.6em 0;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+
+
+.resident_circle {
+    display: block;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.resident_name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resident_hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.resident_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resident_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.resident_label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.resident_value {
+    font-weight: normal;
+}
+
+.Alive {
+    background-color: green;
+}
+
+.Dead {
+    background-color: red;
+}
